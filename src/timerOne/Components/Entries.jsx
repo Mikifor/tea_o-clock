@@ -13,7 +13,7 @@ const Entries = (props) => {
 
     return <div>
         <input placeholder="Seconds" type="number" onChange={onChangeFunction} />
-        <button onClick={onClickFunction} value={props.store._state.timer} disabled={props.store.mainButtonDisabled}>Start</button>
+        <button onClick={onClickFunction} value={props.store._state.timer} disabled={props.store.mainButtonDisabled}>Start T1</button>
         <br />
         <br />
         <span>{props.store._state.hours}:{props.store._state.minutes}:{props.store._state.seconds}</span>
